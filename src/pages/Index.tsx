@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useCartStore } from "@/stores/cartStore";
 import { toast } from "sonner";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/hero-jail.jpg";
+import heroImage from "@/assets/hero-pleasure.jpg";
 import { Loader2 } from "lucide-react";
 
 const Index = () => {
@@ -51,23 +51,26 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 text-center px-4 max-w-4xl">
-          <div className="inline-block px-4 py-2 bg-accent text-accent-foreground font-mono font-bold text-sm mb-4 uppercase tracking-wider">
-            ⚠️ OFFICIAL CONTRABAND ⚠️
+          <div className="inline-block px-4 py-2 bg-accent/20 border border-accent text-accent font-mono font-bold text-sm mb-4 uppercase tracking-wider">
+            🔞 FOR ADULTS WHO GET THE JOKE 🔞
           </div>
           <h1 className="text-5xl md:text-7xl font-bold font-mono mb-6 text-glow">
             SAMAY RAINA'S
             <br />
-            <span className="text-primary">PRISON MERCH</span>
+            <span className="text-primary">PLEASURE COLLECTION</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground font-mono mb-8">
-            Dark humor. Darker designs. Straight from the asylum.
+          <p className="text-xl md:text-2xl text-muted-foreground font-mono mb-4">
+            Dark humor. Darker nights. Even darker protection.
+          </p>
+          <p className="text-lg text-accent font-mono mb-8">
+            "Mummy kaisi hai?" - Better if you use protection 😏
           </p>
           <div className="flex gap-4 justify-center">
-            <Button size="lg" className="font-mono uppercase tracking-wider">
-              View Collection
+            <Button size="lg" className="font-mono uppercase tracking-wider bg-primary hover:bg-primary/90">
+              Shop Now
             </Button>
-            <Button size="lg" variant="outline" className="font-mono uppercase tracking-wider border-2">
-              Join the Chaos
+            <Button size="lg" variant="outline" className="font-mono uppercase tracking-wider border-2 border-accent text-accent hover:bg-accent/10">
+              Why So Serious?
             </Button>
           </div>
         </div>
@@ -77,10 +80,13 @@ const Index = () => {
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold font-mono mb-4">
-            <span className="text-primary">CONTRABAND</span> COLLECTION
+            <span className="text-primary">ESSENTIAL</span> COLLECTION
           </h2>
-          <p className="text-muted-foreground font-mono">
-            Limited edition merch for the mentally unhinged
+          <p className="text-muted-foreground font-mono mb-2">
+            For weak independent women and true gentlemen alike
+          </p>
+          <p className="text-accent font-mono text-sm">
+            ⚡ Hearing ka samay ho gya hai - Shop before it's too late ⚡
           </p>
         </div>
 
@@ -132,20 +138,34 @@ const Index = () => {
         ) : (
           <div className="text-center py-20">
             <p className="text-xl text-muted-foreground font-mono mb-4">
-              No products found. The cell is empty.
+              Bachao Bachaao! No products yet.
             </p>
-            <p className="text-muted-foreground font-mono">
-              Create a product by telling me what you want to sell!
+            <p className="text-muted-foreground font-mono mb-2">
+              Tell me which products to add from this collection:
             </p>
+            <div className="text-accent font-mono text-sm space-y-1 max-w-md mx-auto">
+              <p>• Ae moorkh, apni chavi sudhaar</p>
+              <p>• Mummy kaisi hai??</p>
+              <p>• Weak independent women</p>
+              <p>• Balraj is a true gentleman</p>
+              <p>• National Institute of fuckAll talent</p>
+              <p>• Kashmiri hu, patthar khaata hu</p>
+              <p>• Bachao Bachaao</p>
+              <p>• Hearing ka samay ho gya hai</p>
+              <p>• Dark guy, Darker jokes</p>
+            </div>
           </div>
         )}
       </section>
 
       {/* Footer */}
       <footer className="border-t border-border mt-20 py-8 grungy-texture">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4 text-center space-y-2">
           <p className="text-muted-foreground font-mono text-sm">
-            © 2025 SAMAY RAINA MERCH • INMATE #001 • ALL RIGHTS RESERVED (PROBABLY)
+            © 2025 SAMAY RAINA • DARK GUY, DARKER JOKES • FOR ADULTS ONLY (18+)
+          </p>
+          <p className="text-muted-foreground/60 font-mono text-xs">
+            Stay safe. Stay protected. Stay funny. 😏
           </p>
         </div>
       </footer>

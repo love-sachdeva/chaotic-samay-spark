@@ -103,8 +103,8 @@ const ProductDetail = () => {
           {/* Product Info */}
           <div className="flex flex-col">
             <div className="mb-2">
-              <span className="px-3 py-1 bg-accent text-accent-foreground font-mono text-xs font-bold uppercase tracking-wider">
-                Limited Edition
+              <span className="px-3 py-1 bg-accent/20 border border-accent text-accent font-mono text-xs font-bold uppercase tracking-wider">
+                🔞 Adults Only
               </span>
             </div>
             
@@ -161,10 +161,10 @@ const ProductDetail = () => {
             </Button>
 
             <div className="border-t border-border pt-6 mt-6 space-y-3 text-sm font-mono text-muted-foreground">
-              <p>✓ Dark humor guaranteed</p>
-              <p>✓ Limited edition contraband</p>
-              <p>✓ Ships from the asylum</p>
-              <p>✓ No refunds (you're already committed)</p>
+              <p>✓ Discreet packaging (Mummy won't know)</p>
+              <p>✓ Quality guaranteed by true gentlemen</p>
+              <p>✓ Dark humor included free</p>
+              <p>✓ For weak independent women and strong dependent men</p>
             </div>
           </div>
         </div>

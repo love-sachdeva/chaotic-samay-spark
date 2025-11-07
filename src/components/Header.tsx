@@ -11,17 +11,17 @@ export const Header = () => {
               <span className="text-primary">SAMAY</span>
               <span className="text-foreground"> RAINA</span>
             </div>
-            <div className="px-2 py-1 bg-primary text-primary-foreground text-xs font-mono font-bold rounded">
-              INMATE #001
+            <div className="px-2 py-1 bg-accent/20 border border-accent text-accent text-xs font-mono font-bold rounded">
+              18+ ONLY
             </div>
           </Link>
           
           <nav className="hidden md:flex items-center gap-6">
             <Link to="/" className="font-mono text-sm hover:text-primary transition-colors uppercase tracking-wider">
-              Cell Block
+              Essentials
             </Link>
-            <Link to="/" className="font-mono text-sm hover:text-primary transition-colors uppercase tracking-wider">
-              Contraband
+            <Link to="/" className="font-mono text-sm hover:text-accent transition-colors uppercase tracking-wider">
+              Dark Humor
             </Link>
           </nav>
           

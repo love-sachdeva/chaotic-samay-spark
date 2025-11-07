@@ -8,81 +8,81 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Jail/Asylum Dark Theme - Grungy, edgy aesthetic */
-    --background: 0 0% 8%;
-    --foreground: 0 0% 92%;
+    /* Dark Romantic Theme - Sensual & Playful with Dark Humor */
+    --background: 0 0% 6%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 92%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 92%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Prison orange accent */
-    --primary: 24 95% 53%;
+    /* Passionate red-pink accent */
+    --primary: 350 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    /* Dark grays for secondary */
-    --secondary: 0 0% 18%;
-    --secondary-foreground: 0 0% 90%;
+    /* Deep purple secondary */
+    --secondary: 280 40% 20%;
+    --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted-foreground: 0 0% 65%;
 
-    /* Harsh yellow warning color */
-    --accent: 45 93% 47%;
-    --accent-foreground: 0 0% 10%;
+    /* Hot pink accent */
+    --accent: 330 95% 60%;
+    --accent-foreground: 0 0% 100%;
 
-    /* Harsh red for destructive */
+    /* Warning red */
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 24 95% 53%;
+    --border: 280 20% 18%;
+    --input: 280 20% 18%;
+    --ring: 350 85% 55%;
 
-    --radius: 0.25rem;
+    --radius: 0.5rem;
 
     /* Gradients */
-    --gradient-bars: linear-gradient(90deg, hsl(0 0% 20%) 0%, hsl(0 0% 20%) 10%, transparent 10%, transparent 100%);
-    --gradient-glow: radial-gradient(ellipse at center, hsl(24 95% 53% / 0.3) 0%, transparent 70%);
+    --gradient-sensual: linear-gradient(135deg, hsl(350 85% 55% / 0.2) 0%, hsl(280 40% 20% / 0.3) 100%);
+    --gradient-glow: radial-gradient(ellipse at center, hsl(350 85% 55% / 0.4) 0%, transparent 70%);
     
     /* Shadows */
-    --shadow-harsh: 0 4px 20px -2px hsl(0 0% 0% / 0.8);
-    --shadow-glow: 0 0 30px hsl(24 95% 53% / 0.4);
+    --shadow-romantic: 0 8px 30px -4px hsl(350 85% 55% / 0.3);
+    --shadow-glow: 0 0 40px hsl(350 85% 55% / 0.5);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 92%;
+    --background: 0 0% 6%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 92%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 92%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 24 95% 53%;
+    --primary: 350 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 18%;
-    --secondary-foreground: 0 0% 90%;
+    --secondary: 280 40% 20%;
+    --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 45 93% 47%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 330 95% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 24 95% 53%;
+    --border: 280 20% 18%;
+    --input: 280 20% 18%;
+    --ring: 350 85% 55%;
   }
 }
 
